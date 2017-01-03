@@ -23,10 +23,6 @@ bool isRepFree(long long i)
 
 		i /= 10;
 	}
-	// for(int i = 0; i < 10; i++)
-	// 	cout << seen[i] << " ";
-	// cout << endl;
-
 	return true;
 }
 
@@ -45,8 +41,5 @@ int main(void)
 	}
 	if(!ans)
 		cout << "0\n";
-	// for(int i = 0; i <= 100; i++)
-	// 	cout << i << " " << isRepFree(i) << endl;
-
 	return 0;
 }
